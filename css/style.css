@@ -60,7 +60,7 @@ img {
 
 .header-nav {
   display: inline-flex;
-  width: 70%;
+  width: 66%;
   flex-direction: row;
   justify-content: center;
 }
@@ -127,8 +127,36 @@ img {
   transform: scaleX(1);
 }
 
+/*dropdown*/
+.avatar {
+  width: 30px;
+  height: 30px;
+  color: var(--avatar-bg);
+}
 
+.dropdown-button {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 5px 5px 12px;
+  margin: 0;
+  min-width: 77px;
+  min-height: 38px;
+  border-radius: 21px;
+  background-color: var(--dropdown-button-bg);
+  border: 1px solid var(--dropdown-border-color);
+  outline: none;
+  cursor: pointer;
+}
 
+.dropdown-button:hover,
+.dropdown-button:focus {
+  box-shadow: var(--dropdown-box-shadow);
+}
+
+.dropdown-button .icon svg path {
+  stroke: var(--nav-link-color);
+}
 
 
 /* banner */
