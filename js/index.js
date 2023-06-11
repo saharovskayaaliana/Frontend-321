@@ -43,8 +43,19 @@ links.forEach(link => {
     event.currentTarget.classList.add('link-active');
   })
 })
-
-
+/*dropdown*/
+const dropDownButton = document.querySelector('.dropdown-button');
+const dropDownMenu = document.querySelector('.dropdown-menu');
+/*вкл/выкл выпадающего списка*/
+dropDownButton.addEventListener('click', () => {
+  dropDownMenu.classList.toggle('dropdown-show');
+})
+/*клик вне пунктов меню*/
+document.addEventListener('click', (event) => {
+  if (!event.target.closest('.dropdown-menu') && !event.target.closest('.dropdown-button')) {
+    dropDownMenu.classList.remove('dropdown-show');
+  }
+})
 /* init swiper banner */
 const swiper = new Swiper('.swiper', {
   // Optional parameters

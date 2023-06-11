@@ -19,6 +19,10 @@
   --label-color: rgba(255, 255, 255, 0.38);
   /*цвет аватара*/
   --avatar-bg: #979797;
+  /*dropdown-button*/
+  --dropdown-button-bg: #292929;
+  --dropdown-border-color: rgba(255, 255, 255, 0.3);
+  --dropdown-box-shadow: 0 8px 10px rgba(0, 0, 0, 0.14), 0 3px 14px rgba(0, 0, 0, 0.12), 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -60,11 +64,4 @@ textarea:focus {
   --checkbox-mark-color: #222222;
   --checkbox-bg-color-default: #222222;
   --checkbox-bg-border: #B0B0B0;
-}
-
-/*dropdown-button*/
-.dropdown-button {
-  --dropdown-button-bg: #292929;
-  --dropdown-border-color: rgba(255, 255, 255, 0.3);
-  --dropdown-box-shadow: 0 8px 10px rgba(0, 0, 0, 0.14), 0 3px 14px rgba(0, 0, 0, 0.12), 0 5px 5px rgba(0, 0, 0, 0.2);
 }
