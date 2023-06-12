@@ -1,4 +1,3 @@
-/* header links */
 const links = document.querySelectorAll('.header-nav__link');
 
 links.forEach(link => {
@@ -20,7 +19,6 @@ document.addEventListener('click', (event) => {
         dropDownMenu.classList.remove('dropdown-show');
     }
 })
-
 
 
 /* модалка become a host */
