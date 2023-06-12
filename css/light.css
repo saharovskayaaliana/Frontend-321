@@ -17,6 +17,14 @@
 
   /*цвет текста label+placeholder*/
   --label-color: #717171;
+  /*цвет аватара*/
+  --avatar-bg: #717171;
+
+  /*dropdown-button*/
+  --dropdown-button-bg: #ffffff;
+  --dropdown-border-color: #ddd;
+  --dropdown-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.18);
+
 }
 
 
